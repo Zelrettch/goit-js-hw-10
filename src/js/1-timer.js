@@ -64,6 +64,7 @@ function startTimer({ values, date }) {
     disableBtn();
     return;
   }
+
   disableFp();
   disableBtn();
   renderTime(convertMs(date.getTime() - Date.now()), values);

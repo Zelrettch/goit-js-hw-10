@@ -1,19 +1,6 @@
 #datetime-picker {
-  padding: 8px 16px;
-  border: 1px solid #808080;
-  border-radius: 4px;
-  display: block;
-  outline: 0;
-  color: currentColor;
-}
-
-#datetime-picker:hover:not(.disabled) {
-  border-color: #000000;
-}
-
-#datetime-picker:focus:not(.disabled) {
-  border-color: #4e75ff;
-  outline: 0;
+  max-width: 272px;
+  flex-grow: 1;
 }
 
 #datetime-picker.disabled {
@@ -43,4 +30,5 @@
 .label {
   text-align: center;
   display: block;
+  text-transform: uppercase;
 }
