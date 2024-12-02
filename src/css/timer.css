@@ -1,0 +1,46 @@
+#datetime-picker {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: block;
+  outline: 0;
+  color: currentColor;
+}
+
+#datetime-picker:hover:not(.disabled) {
+  border-color: #000000;
+}
+
+#datetime-picker:focus:not(.disabled) {
+  border-color: #4e75ff;
+  outline: 0;
+}
+
+#datetime-picker.disabled {
+  color: #808080;
+  background-color: #fafafa;
+}
+
+.date-pick-panel {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 48px;
+  display: block;
+  text-align: center;
+}
+
+.label {
+  text-align: center;
+  display: block;
+}

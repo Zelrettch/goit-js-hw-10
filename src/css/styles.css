@@ -9,3 +9,5 @@
 
 /* Sections style */
 @import url('./main.css');
+@import url('./timer.css');
+@import url('./snackbar.css');
