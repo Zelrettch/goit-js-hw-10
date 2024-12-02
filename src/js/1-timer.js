@@ -12,6 +12,7 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     const date = selectedDates[0];
+
     if (timeValidate(date)) {
       timer.date = date;
       enableBtn();
